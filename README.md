@@ -70,13 +70,13 @@ Once the setup is complete, you can run the Streamlit app with the following com
 streamlit run app.py
 
 ---
-### 💡 How It Works
-#### The application's intelligence comes from a carefully engineered prompt in agents/video_agent.py. This prompt instructs the AI to follow a specific workflow:
 
-* Intent Routing: First, it determines if the user is asking an analytical question or just having a conversation.
+💡 How It Works
 
-* Analysis Workflow: For analytical queries, it performs a deep, multi-modal analysis of the video.
+The application's intelligence comes from a carefully engineered prompt in agents/video_agent.py. This prompt instructs the AI to follow a specific workflow:
 
-* Response Formulation: It synthesizes its findings to construct a detailed, evidence-based answer that directly addresses the user's query.
+1.  **Intent Routing**: First, it determines if the user is asking an analytical question or just having a conversation.
+2.  **Analysis Workflow**: For analytical queries, it performs a deep, multi-modal analysis of the video.
+3.  **Response Formulation**: It synthesizes its findings to construct a detailed, evidence-based answer that directly addresses the user's query.
 
-* This structured approach ensures high-quality, reliable, and insightful responses every time.
+This structured approach ensures high-quality, reliable, and insightful responses every time.
